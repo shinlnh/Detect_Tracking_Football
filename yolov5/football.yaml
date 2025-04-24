@@ -1,0 +1,13 @@
+# Dataset root directory relative to the yolov5 directory
+path: E:\SourceCode\Python\AI\DL\CV\B_ObjectDetection\2_YoloV5\Football\Checked_Dataset
+
+
+# Train/val/test sets: specify directories, *.txt files, or lists
+train: images/train # 128 images for training
+val: images/val # 128 images for validation
+test: # Optional path to test images
+
+# Classes (example using 80 COCO classes)
+names:
+    0: player
+    1: ball
