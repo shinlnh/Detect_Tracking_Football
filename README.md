@@ -69,6 +69,8 @@
 
 
 In repo, I can't load folder modeled_trained include best.pt and last.pt that I trained. You can retrain as run terminal by code :
+
+
     python train.py \
       --img 1280 \
       --batch 8 \
@@ -78,6 +80,8 @@ In repo, I can't load folder modeled_trained include best.pt and last.pt that I 
       --project model_trained \
       --name best \
       --exist-ok
+
+      
     Then, you have two file best.pt and last.pt 
 # HYPER PARAMETERS 
 
