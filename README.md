@@ -68,7 +68,17 @@
 └── README.md # Project documentation
 
 
-
+In repo, I can't load folder modeled_trained include best.pt and last.pt that I trained. You can retrain as run terminal by code :
+    python train.py \
+      --img 1280 \
+      --batch 8 \
+      --epochs 100 \
+      --data football.yaml \
+      --weights yolov5m.pt \
+      --project model_trained \
+      --name best \
+      --exist-ok
+    Then, you have two file best.pt and last.pt 
 # HYPER PARAMETERS 
 
 |STT|Parameters|Value Default|
