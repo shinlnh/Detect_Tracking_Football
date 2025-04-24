@@ -18,21 +18,53 @@
 
     Football
 ├── .idea/ # PyCharm project settings
+
+
 ├── .venv/ # Python virtual environment
+
+
 ├── Checked_Dataset/ # Cleaned and verified dataset
+
+
 ├── Dataset/ # Original dataset
+
+
 ├── DatasetYoloFootball # JetBrains PyCharm config or dataset script
+
+
 ├── GUI_Detect_Tracker # Tkinter GUI launcher
+
+
 ├── model_data/ # Additional data for training
+
+
 ├── model_trained/ # Trained models directory
+
+
 │ ├── best.pt # Best performing model
+
+
 │ └── last.pt # Last checkpoint
+
+
 ├── output/ # Output results
+
+
 ├── yolov5/ # YOLOv5 core code
+
+
 │ ├── detect.py # YOLOv5 detection script
+
+
 │ ├── detect_track.py # Detection + Deep SORT tracking
+
+
 │ ├── models/ # Model definitions
+
+
 │ └── utils/ # Utility functions
+
+
 └── README.md # Project documentation
 
 
